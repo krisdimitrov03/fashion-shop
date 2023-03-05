@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.search, .logo, .cart {
+    width: 100%;
+}
+
+.logo img {
+    height: 8rem;
+}
+
+.search {
+    font-size: 2rem;
+    color: white;
+}
+
+.search a {
+    background-color: #383838;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.search a:hover {
+    background-color: rgb(134, 0, 0);
+}
+
+.search svg {
+    vertical-align: middle;
+}
+
+.cart a {
+    background-color: #383838;
+    color: white;
+    border-radius: 50%;
+    padding: 0.5rem;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+.cart svg {
+    vertical-align: middle;
+}

@@ -1,0 +1,23 @@
+@import '../../colors.css';
+
+.container {
+    color: white;
+    background-color: var(---grey-color);
+    padding: 1rem;
+}
+
+.link {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.link:hover {
+    color: var(---light-grey);
+}
+
+.link svg,
+.link span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.2rem;
+}

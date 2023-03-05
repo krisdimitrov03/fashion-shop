@@ -1,0 +1,29 @@
+.container {
+    background-color: rgb(194, 194, 194);
+    color: #272727;
+}
+
+.link {
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+#sale {
+    background-color: black;
+    color: #ea2349;
+}
+
+.link:hover {
+    background-color: #272727;
+    color: white;
+}
+
+
+
+.link svg, .link span {
+    display: inline-block;
+    margin: 0 0.2rem;
+    vertical-align: middle;
+}

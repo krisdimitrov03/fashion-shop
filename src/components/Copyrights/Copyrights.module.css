@@ -1,0 +1,11 @@
+.container {
+    padding: 1.5rem;
+}
+
+.link {
+    color: #0a7cff;
+}
+
+.link:hover {
+    color: #dd0022;
+}

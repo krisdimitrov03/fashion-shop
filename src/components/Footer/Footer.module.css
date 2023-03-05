@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #383838;
+    color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.logo {
+    margin-left: 2.5rem;
+}
+
+.nav {
+    display: flex;
+}
+
+.linkSection {
+    margin: 1rem;
+    text-align: left;
+    width: 15rem;
+}
+
+.title {
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dotted rgb(133, 133, 133);
+}
+
+.linkSection a {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+    transition: 0.2s;
+}
+
+.linkSection a:hover {
+    color: #dd1d31;
+}
